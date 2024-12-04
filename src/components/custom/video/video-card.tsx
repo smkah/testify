@@ -1,6 +1,6 @@
 "use client";
 
-import { VideoWithSignedUrl } from "@/app/@types";
+import { VideoWithSignedUrl } from "@/app/types";
 import {
   deleteVideo,
   // getVideo

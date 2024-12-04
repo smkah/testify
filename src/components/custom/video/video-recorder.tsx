@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useCallback, useEffect } from "react";
 import { getSignedUrlVideo, uploadVideo as upload } from "@/app/actions/videos";
-import { getUserLoggedIn, logoff } from "@/app/actions/users";
+import { getUserLoggedIn } from "@/app/actions/users";
 import { Button } from "@/components/ui/button";
 import {
   Download,

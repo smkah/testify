@@ -1,4 +1,4 @@
-import { VideoWithSignedUrl } from "@/app/@types";
+import { VideoWithSignedUrl } from "@/app/types";
 import { getUserLoggedIn } from "@/app/actions/users";
 import { getSignedUrlVideo, getVideos } from "@/app/actions/videos";
 import { VideoCard } from "./video-card";
